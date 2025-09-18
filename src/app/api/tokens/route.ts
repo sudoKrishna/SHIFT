@@ -1,3 +1,7 @@
+export const config = {
+  runtime: "edge",
+};
+
 import { NextRequest, NextResponse } from "next/server";
 import { getAssociatedTokenAddress, getAccount } from "@solana/spl-token";
 import { connection, getSupportedTokens } from "@/app/lib/constants";
